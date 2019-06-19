@@ -8,10 +8,57 @@
 
 .main__nav--ox {
   margin-bottom: 80px;
+  min-height: 175px;
+  position: relative;
 }
 
 .main__msg--ox {
   margin: 50px auto;
+}
+
+.nav__btn--ox {
+	position: absolute;
+	background-color: rgba(248, 249, 250, 0.58);
+  border-color: rgba(248, 249, 250, 0.58);
+  color: #4273bb;
+	border-radius: 50%;
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+.btn--home {
+	top: 18%;
+	left: 15%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.btn--us {
+	top: 12%;
+	left: 52%;
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+
+.btn--xp {
+	top: 39%;
+	left: 31%;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.btn--facilities {
+	top: 45%;
+	left: 67%;
+	padding-top: 77px;
+	padding-bottom: 77px;
+}
+
+.btn--contact {
+	top: 75%;
+	left: 85%;
+	padding-top: 65px;
+	padding-bottom: 65px;
 }
 
 .img--ox {
