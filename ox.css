@@ -1,5 +1,5 @@
 .header--ox {
-  margin: 65px 0 85px 0;
+  margin: 65px auto 85px auto;
 }
 
 .footer--ox {
@@ -78,4 +78,8 @@
 
 .img--ox {
   width: 100%;
+}
+
+header > .img--ox {
+	max-width: 700px;
 }
