@@ -3,7 +3,7 @@
 }
 
 .footer--ox {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .main__nav--ox {
@@ -17,50 +17,65 @@
 }
 
 .nav__btn--ox {
-	position: absolute;
-	background-color: rgba(248, 249, 250, 0.58);
-  border-color: rgba(248, 249, 250, 0.58);
+  position: absolute;
+  font-family: verdana;
+  font-size: 28px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-color: rgba(255, 255, 255, 0.85);
   color: #4273bb;
-	border-radius: 50%;
-	padding-right: 40px;
-	padding-left: 40px;
+  border-radius: 50%;
+  background-image: url("imagenes/muela GRIS.svg");
+  background-repeat: no-repeat;
+  background-size: 73%;
+  background-position: 50% 68%;
 }
 
 .btn--home {
-	top: 18%;
-	left: 15%;
-	padding-top: 50px;
-	padding-bottom: 50px;
+  top: 14%;
+  left: 14%;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 58px;
+  padding-bottom: 58px;
 }
 
 .btn--us {
-	top: 12%;
-	left: 52%;
-	padding-top: 65px;
-	padding-bottom: 65px;
+  top: 7%;
+  left: 53%;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-size: 73%;
 }
 
 .btn--xp {
-	top: 39%;
-	left: 31%;
-	padding-top: 80px;
-	padding-bottom: 80px;
+  top: 30%;
+  left: 31.5%;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 108px;
+  padding-bottom: 108px;
 }
 
 .btn--facilities {
-	top: 45%;
-	left: 67%;
-	padding-top: 77px;
-	padding-bottom: 77px;
+  top: 38%;
+  left: 67%;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 109px;
+  padding-bottom: 109px;
 }
 
 .btn--contact {
-	top: 75%;
-	left: 85%;
-	padding-top: 65px;
-	padding-bottom: 65px;
+  top: 71%;
+  left: 83%;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 67px;
+  padding-bottom: 67px;
 }
 
 .img--ox {
-	width: 100%;
+  width: 100%;
 }
