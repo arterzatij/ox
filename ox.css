@@ -81,5 +81,66 @@
 }
 
 header > .img--ox {
-	max-width: 700px;
+  max-width: 700px;
+}
+
+.menu__item {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transition: .3s ease;
+}
+
+.menu__item--inicio  {
+  background-image: url("imagenes/btn-inicio.svg");
+  height: 83px;
+  width: 100px;
+}
+
+.menu__item--inicio:hover,
+.menu__item--inicio.active  {
+  background-image: url("imagenes/btn-inicio--hover.svg");
+}
+
+.menu__item--quienes-somos  {
+  background-image: url("imagenes/btn-quienes-somos.svg");
+  height: 83px;
+  width: 182px;
+}
+
+.menu__item--quienes-somos:hover,
+.menu__item--quienes-somos.active  {
+  background-image: url("imagenes/btn-quienes-somos--hover.svg");
+}
+
+.menu__item--especialidades  {
+  background-image: url("imagenes/btn-especialidades.svg");
+  height: 83px;
+  width: 182px;
+}
+
+.menu__item--especialidades:hover,
+.menu__item--especialidades.active  {
+  background-image: url("imagenes/btn-especialidades--hover.svg");
+}
+
+.menu__item--instalaciones  {
+  background-image: url("imagenes/btn-instalaciones.svg");
+  height: 83px;
+  width: 182px;
+}
+
+.menu__item--instalaciones:hover,
+.menu__item--instalaciones.active  {
+  background-image: url("imagenes/btn-instalaciones--hover.svg");
+}
+
+.menu__item--contacto  {
+  background-image: url("imagenes/btn-contacto.svg");
+  height: 83px;
+  width: 182px;
+}
+
+.menu__item--contacto:hover,
+.menu__item--contacto.active  {
+  background-image: url("imagenes/btn-contacto--hover.svg");
 }

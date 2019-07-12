@@ -14,26 +14,31 @@
   </head>
   <body>
 
-    <header class="container text-center header--ox">
+    <header class="container text-center header--ox" style="margin-bottom: 35px;">
       <img src="imagenes/header.svg" class="img-fluid img--ox">
     </header>
 
-    <main>
-      <nav class="main__nav--ox">
-        <img src="imagenes/main.png" class="img-fluid img--ox">
-        <a href="index.html" class="btn btn-light nav__btn--ox btn--home">INICIO</a>
-        <a href="nosotros.html" class="btn btn-light nav__btn--ox btn--us">NOSOTROS</a>
-        <a href="especialidades.html" class="btn btn-light nav__btn--ox btn--xp">ESPECIALIDADES</a>
-        <a href="instalaciones.html" class="btn btn-light nav__btn--ox btn--facilities">INSTALACIONES</a>
-        <a href="contacto.html" class="btn btn-light nav__btn--ox btn--contact">CONTACTO</a>
-      </nav>
-      <img src="imagenes/mensage-home.svg" class="img--fluid img--ox main__msg--ox">
-      <p>
-        <img src="imagenes/icon--blue.svg" width="30" class="rounded mx-auto d-block">
-      </p>      
+    <main class="container">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link menu__item menu__item--inicio" href="index.html"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu__item menu__item--quienes-somos" href="nosotros.html"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu__item menu__item--especialidades" href="especialidades.html"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu__item menu__item--instalaciones active" href="instalaciones.html"></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link menu__item menu__item--contacto" href="contacto.html"></a>
+        </li>
+      </ul>
     </main>
 
-    <footer class="footer--ox">
+    <footer>
       <img src="imagenes/footer.svg" class="img-fluid img--ox">
     </footer>
 
