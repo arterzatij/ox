@@ -144,3 +144,38 @@ header > .img--ox {
 .menu__item--contacto.active  {
   background-image: url("imagenes/btn-contacto--hover.svg");
 }
+
+.card--ox {
+  border: 0;
+  border-radius: 0;
+}
+
+.card--ox .card-header {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+.card--ox .card-body {
+	background-color: #0a9fda;
+  color: white;
+  margin-top: .5rem;
+  padding-bottom: 110px;
+}
+
+.card--ox .card-title {
+  margin-bottom: .5rem;
+  letter-spacing: 3px;
+}
+
+.card--ox .card-text {
+	background-color: #0a9fda;
+  color: white;
+}
+
+.btn--ox {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 0;
+  min-width: 90px;
+}
