@@ -82,7 +82,7 @@
 
 .img__page {
 	margin-top: 146px;
-  width: 800px;
+  width: 900px;
 }
 
 header > .img--ox {
@@ -193,4 +193,40 @@ header > .img--ox {
   padding-bottom: 0;
   border-radius: 0;
   min-width: 90px;
+}
+
+.nav__bubble {
+	position: absolute;
+	top: 0;
+	border-radius: 50%;
+  font-family: verdana;
+  font-size: 28px;
+  text-align: center;
+  background-color: rgba(194, 214, 222, 0.42);
+  color: #4273bb;
+  padding: 40px 46px;
+}
+
+.nav__bubble:hover .btn-primary {
+	background-color: white;
+	border-color: white;
+}
+
+.nav__bubble p {
+	margin-bottom: 0;
+}
+
+.bubble--mision {
+  top: 24%;
+  left: 71%;
+}
+
+.bubble--vision {
+  top: 47%;
+  left: 80%;
+}
+
+.bubble--equipo {
+  top: 73%;
+  left: 73%;
 }
