@@ -81,8 +81,12 @@
 }
 
 .img__page {
-	margin-top: 146px;
-  width: 900px;
+  margin-top: 146px;
+}
+
+.img__page--nosotros {
+  margin-top: 190px;
+  width: 900px
 }
 
 header > .img--ox {
@@ -176,6 +180,7 @@ header > .img--ox {
 	background-color: rgba(15, 104, 140, 0.72);
   color: white;
   margin-top: .5rem;
+  padding-top: 70px;
   padding-bottom: 110px;
 }
 
@@ -217,12 +222,12 @@ header > .img--ox {
 }
 
 .bubble--mision {
-  top: 24%;
+  top: 28%;
   left: 71%;
 }
 
 .bubble--vision {
-  top: 47%;
+  top: 50%;
   left: 80%;
 }
 
