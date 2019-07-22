@@ -81,12 +81,13 @@
 }
 
 .img__page {
-  margin-top: 146px;
-}
-
-.img__page--nosotros {
   margin-top: 190px;
   width: 900px
+}
+
+.img__page--mision {
+  margin-top: 180px;
+  width: 950px;
 }
 
 header > .img--ox {
@@ -181,7 +182,6 @@ header > .img--ox {
   color: white;
   margin-top: .5rem;
   padding-top: 70px;
-  padding-bottom: 110px;
 }
 
 .card--ox .card-title {
@@ -190,6 +190,8 @@ header > .img--ox {
 }
 
 .card--ox .card-text {
+	padding-top: 40px;
+	padding-bottom: 40px;
 	color: white;
 }
 
