@@ -186,13 +186,25 @@ header > .img--ox {
 
 .card--ox .card-title {
   margin-bottom: .5rem;
-  letter-spacing: 3px;
 }
 
 .card--ox .card-text {
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: white;
+}
+
+.ox-text {
+  height: 0;
+  font-size: 18px;
+	display: none;
+  overflow: hidden;
+  transition: height .3s ease-in-out;
+}
+
+.card--ox:hover .ox-text {
+	display: block;
+	height: 900px;
 }
 
 .btn--ox {
