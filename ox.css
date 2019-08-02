@@ -156,11 +156,11 @@ header > .img--ox {
 }
 
 .container--ox {
-	position: relative;
+  position: relative;
 }
 
 .card__container {
-	position: absolute;
+  position: absolute;
   top: 0;
   width: 100%;
 }
@@ -178,7 +178,7 @@ header > .img--ox {
 }
 
 .card--ox .card-body {
-	background-color: rgba(15, 104, 140, 0.72);
+  background-color: rgba(15, 104, 140, 0.72);
   color: white;
   margin-top: .5rem;
   padding-top: 70px;
@@ -189,22 +189,22 @@ header > .img--ox {
 }
 
 .card--ox .card-text {
-	padding-top: 40px;
-	padding-bottom: 40px;
-	color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
 }
 
 .ox-text {
   height: 0;
   font-size: 18px;
-	display: none;
+  padding-bottom: 0!important;
   overflow: hidden;
   transition: height .3s ease-in-out;
 }
 
 .card--ox:hover .ox-text {
-	display: block;
-	height: 900px;
+  padding-bottom: 40px; 
+  height: 900px;
 }
 
 .btn--ox {
@@ -215,9 +215,9 @@ header > .img--ox {
 }
 
 .nav__bubble {
-	position: absolute;
-	top: 0;
-	border-radius: 50%;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
   font-family: verdana;
   font-size: 28px;
   text-align: center;
@@ -227,12 +227,12 @@ header > .img--ox {
 }
 
 .nav__bubble:hover .btn-primary {
-	background-color: white;
-	border-color: white;
+  background-color: white;
+  border-color: white;
 }
 
 .nav__bubble p {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .bubble--mision {
