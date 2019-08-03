@@ -1,3 +1,7 @@
+body {
+  font-family: 'Verdana';
+}
+
 .header--ox {
   margin: 65px auto 85px auto;
 }
@@ -97,7 +101,6 @@ header > .img--ox {
 .menu__item {
   background-repeat: no-repeat;
   background-position: 50%;
-  transition: .3s ease;
 }
 
 .menu__item--inicio  {
@@ -178,7 +181,7 @@ header > .img--ox {
 }
 
 .card--ox .card-body {
-  background-color: rgba(15, 104, 140, 0.72);
+  background-color: rgba(46, 84, 255, 0.7);
   color: white;
   margin-top: .5rem;
   padding-top: 70px;
@@ -195,16 +198,12 @@ header > .img--ox {
 }
 
 .ox-text {
-  height: 0;
   font-size: 18px;
-  padding-bottom: 0!important;
-  overflow: hidden;
-  transition: height .3s ease-in-out;
 }
 
-.card--ox:hover .ox-text {
-  padding-bottom: 40px; 
-  height: 900px;
+.btn-primary {
+  background-color: rgb(49, 133, 255);
+  border-color: rgb(49, 133, 255);
 }
 
 .btn--ox {
@@ -221,7 +220,7 @@ header > .img--ox {
   font-family: verdana;
   font-size: 28px;
   text-align: center;
-  background-color: rgba(194, 214, 222, 0.42);
+  background-color: rgba(49, 133, 255, 0.13);
   color: #4273bb;
   padding: 40px 46px;
 }
