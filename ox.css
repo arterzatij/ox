@@ -308,3 +308,15 @@ header > .img--ox {
   left: 13%;
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 220px;
+  height: 30PX;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("imagenes/btn-next.svg");
+}
+
+.carousel-control-next-icon {
+  background-image: url("imagenes/btn-next.svg");
+}
