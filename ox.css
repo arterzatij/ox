@@ -225,6 +225,11 @@ header > .img--ox {
   padding: 40px 46px;
 }
 
+.nav__bubble--sec {
+	background-color: rgba(46, 84, 255, 0.4);
+	color: #fff;
+}
+
 .nav__bubble:hover .btn-primary {
   background-color: white;
   border-color: white;
@@ -248,3 +253,58 @@ header > .img--ox {
   top: 73%;
   left: 73%;
 }
+
+.bubble--periodoncia {
+  padding: 63px 20px;
+  top: 4%;
+  left: 38%;
+}
+
+.bubble--ortodoncia {
+  padding: 52px 30px;
+  top: 7%;
+  left: 65%;
+}
+
+.bubble--odontopediatria {
+  padding: 91px 11px;
+  top: 35%;
+  left: 75%;
+}
+
+.bubble--sedacion {
+  padding: 48px 31px;
+  top: 72%;
+  left: 75%;
+}
+
+.bubble--endodoncia {
+  padding: 63px 23px;
+  top: 83%;
+  left: 51%;
+}
+
+.bubble--cirugia {
+  padding: 30px 43px;
+  top: 83%;
+  left: 21%;
+}
+
+.bubble--implantologia {
+  padding: 79px 19px;
+  top: 59%;
+  left: -2%;
+}
+
+.bubble--patologia {
+  padding: 38px 32px;
+  top: 30%;
+  left: 0%;
+}
+
+.bubble--protesis {
+  padding: 37px 40px;
+  top: 8%;
+  left: 13%;
+}
+
