@@ -320,3 +320,33 @@ header > .img--ox {
 .carousel-control-next-icon {
   background-image: url("imagenes/btn-next.svg");
 }
+
+.team-ox {
+  position: relative;
+}
+
+.team-member {
+  position: relative;
+  -webkit-transition: .3s ease-in-out; /* Safari prior 6.1 */
+          transition: .3s ease-in-out;
+}
+
+.team-member:hover {
+  z-index: 100;
+}
+
+.team-member--sabi {
+  transform: translateY(-25%);
+}
+
+.team-member--cruz {
+  transform: translateY(-50%);
+}
+
+.team-member--endo {
+  transform: translateY(-75%);
+}
+
+.team-member--carlos {
+  transform: translateY(-100%);
+}
