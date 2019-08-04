@@ -322,7 +322,9 @@ header > .img--ox {
 }
 
 .team-ox {
-  position: relative;
+  position: absolute;
+  right: 50%;
+  top:25%;
 }
 
 .team-member {
@@ -333,6 +335,10 @@ header > .img--ox {
 
 .team-member:hover {
   z-index: 100;
+}
+
+.team-member img {
+  width: 250px;
 }
 
 .team-member--sabi {
