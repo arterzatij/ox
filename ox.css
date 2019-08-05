@@ -187,6 +187,11 @@ header > .img--ox {
   padding-top: 70px;
 }
 
+.card-body--team {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .card--ox .card-title {
   margin-bottom: .5rem;
 }
@@ -321,6 +326,14 @@ header > .img--ox {
   background-image: url("imagenes/btn-next.svg");
 }
 
+#equipoControles .carousel-control-prev-icon {
+  background-image: url("imagenes/btn-next--white.svg");
+}
+
+#equipoControles .carousel-control-next-icon {
+  background-image: url("imagenes/btn-next--white.svg");
+}
+
 .team-ox {
   position: absolute;
   right: 50%;
@@ -355,4 +368,13 @@ header > .img--ox {
 
 .team-member--carlos {
   transform: translateY(-100%);
+}
+
+.text--equipo {
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.quote-ox {
+  background-color: white;
 }
