@@ -162,10 +162,22 @@ header > .img--ox {
   position: relative;
 }
 
+.container--team-ox {
+  position: relative;
+  height: 1260px;
+}
+
 .card__container {
   position: absolute;
   top: 0;
   width: 100%;
+}
+
+.card__container--team {
+  background-image: url(imagenes/nosotros-equipo-bg.svg);
+  background-repeat: no-repeat;
+  height: 1280px;
+  background-position-y: 61%;
 }
 
 .card--ox {
@@ -319,7 +331,7 @@ header > .img--ox {
 }
 
 .carousel-control-prev-icon {
-  background-image: url("imagenes/btn-next.svg");
+  background-image: url("imagenes/btn-prev.svg");
 }
 
 .carousel-control-next-icon {
@@ -327,7 +339,7 @@ header > .img--ox {
 }
 
 #equipoControles .carousel-control-prev-icon {
-  background-image: url("imagenes/btn-next--white.svg");
+  background-image: url("imagenes/btn-prev--white.svg");
 }
 
 #equipoControles .carousel-control-next-icon {
@@ -337,7 +349,7 @@ header > .img--ox {
 .team-ox {
   position: absolute;
   right: 50%;
-  top:25%;
+  top: 24%;
 }
 
 .team-member {
