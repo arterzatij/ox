@@ -204,6 +204,10 @@ header > .img--ox {
   padding-right: 0;
 }
 
+.card-body--team .carousel-inner {
+  height: 1090px;
+}
+
 .card--ox .card-title {
   margin-bottom: .5rem;
 }
@@ -340,10 +344,14 @@ header > .img--ox {
 
 #equipoControles .carousel-control-prev-icon {
   background-image: url("imagenes/btn-prev--white.svg");
+  position: relative;
+  top: -420px;
 }
 
 #equipoControles .carousel-control-next-icon {
   background-image: url("imagenes/btn-next--white.svg");
+  position: relative;
+  top: -420px;
 }
 
 .team-ox {
