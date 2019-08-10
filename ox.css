@@ -2,6 +2,10 @@ body {
   font-family: 'Verdana';
 }
 
+.ml-7 {
+  margin-left: 7rem!important;
+}
+
 .header--ox {
   margin: 65px auto 85px auto;
 }
@@ -397,4 +401,12 @@ header > .img--ox {
 
 .quote-ox {
   background-color: white;
+}
+
+.media-body--ox {
+  color: #b9bec3;
+}
+
+.ox-options {
+  list-style: url("imagenes/bullet.png");
 }
