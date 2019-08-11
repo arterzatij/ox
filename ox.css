@@ -414,25 +414,25 @@ header > .img--ox {
 @media (max-width: 576px) {
 
   .nav__btn--ox {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .btn--home {
     top: 2%;
     left: 2%;
-    padding-right: 26px;
-    padding-left: 26px;
-    padding-top: 46px;
-    padding-bottom: 46px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
 
   .btn--us {
-    top: 10%;
-    left: 34%;
+    top: 8%;
+    left: 32%;
     padding-right: 5px;
     padding-left: 5px;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 39px;
+    padding-bottom: 39px;
     background-size: 73%;
   }
 
@@ -441,25 +441,25 @@ header > .img--ox {
     left: 2%;
     padding-right: 5px;
     padding-left: 5px;
-    padding-top: 79px;
-    padding-bottom: 79px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   .btn--facilities {
-    top: 38%;
-    left: 67%;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 105px;
-    padding-bottom: 105px;
+    top: 50%;
+    left: 53%;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 59px;
+    padding-bottom: 59px;
   }
 
   .btn--contact {
-    top: 1%;
+    top: 2%;
     left: 67%;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 51px;
-    padding-bottom: 51px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 37px;
+    padding-bottom: 37px;
   }
 }
