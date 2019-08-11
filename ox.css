@@ -487,6 +487,14 @@ header > .img--ox {
     height: 108px;
   }
 
+  .nav__bubble--sec {
+    min-width: 150px;
+    min-height: 150px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 27px;
+  }
+
   .bubble--mision {
     top: 73%;
     left: 1%;
@@ -500,5 +508,52 @@ header > .img--ox {
   .bubble--equipo {
     top: 73%;
     left: 62%;
+  }
+
+  .bubble--periodoncia {
+    top: 4%;
+    left: -2%;
+  }
+
+  .bubble--ortodoncia {
+    top: 4%;
+    left: 51%;
+  }
+
+  .bubble--odontopediatria {
+    top: 40%;
+    left: -2%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .bubble--sedacion {
+    top: 40%;
+    left: 51%;
+  }
+
+  .bubble--endodoncia {
+    top: 76%;
+    left: -2%;
+  }
+
+  .bubble--cirugia {
+    top: 76%;
+    left: 51%;
+  }
+
+  .bubble--implantologia {
+    top: 112%;
+    left: -2%;
+  }
+
+  .bubble--patologia {
+    top: 112%;
+    left: 51%;
+  }
+
+  .bubble--protesis {
+    top: 148%;
+    left: 24%
   }
 }
