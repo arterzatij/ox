@@ -436,6 +436,8 @@ header > .img--ox {
     padding-top: 39px;
     padding-bottom: 39px;
     background-size: 73%;
+    width: 104px;
+    height: 104px;
   }
 
   .btn--xp {
@@ -445,6 +447,8 @@ header > .img--ox {
     padding-left: 5px;
     padding-top: 64px;
     padding-bottom: 64px;
+    width: 154px;
+    height: 154px;
   }
 
   .btn--facilities {
@@ -454,6 +458,8 @@ header > .img--ox {
     padding-left: 5px;
     padding-top: 59px;
     padding-bottom: 59px;
+    width: 144px;
+    height: 144px;
   }
 
   .btn--contact {
@@ -463,6 +469,8 @@ header > .img--ox {
     padding-left: 5px;
     padding-top: 37px;
     padding-bottom: 37px;
+    width: 100px;
+    height: 100px;
   }
 
   .btn--ox {
@@ -475,6 +483,8 @@ header > .img--ox {
   .nav__bubble {
     font-size: 16px;
     padding: 13px 23px;
+    width: 108px;
+    height: 108px;
   }
 
   .bubble--mision {
