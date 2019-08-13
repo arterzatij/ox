@@ -413,6 +413,10 @@ header > .img--ox {
 
 @media (max-width: 576px) {
 
+  .h1, h1 {
+    font-size: 1.5rem;
+  }
+
   .nav__btn--ox {
     font-size: 16px;
   }
@@ -555,5 +559,14 @@ header > .img--ox {
   .bubble--protesis {
     top: 148%;
     left: 24%
+  }
+
+  .card--ox .card-body {
+    padding-top: 30px;
+  }
+
+  .card--ox .card-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
