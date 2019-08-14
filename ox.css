@@ -423,6 +423,10 @@ header > .img--ox {
     font-size: 1.5rem;
   }
 
+  .img__page {
+    margin-top: 145px;
+  }
+
   .nav__btn--ox {
     font-size: 16px;
   }
@@ -531,39 +535,39 @@ header > .img--ox {
   }
 
   .bubble--odontopediatria {
-    top: 40%;
+    top: 43%;
     left: -2%;
     padding-left: 0px;
     padding-right: 0px;
   }
 
   .bubble--sedacion {
-    top: 40%;
+    top: 43%;
     left: 51%;
   }
 
   .bubble--endodoncia {
-    top: 76%;
+    top: 82%;
     left: -2%;
   }
 
   .bubble--cirugia {
-    top: 76%;
+    top: 82%;
     left: 51%;
   }
 
   .bubble--implantologia {
-    top: 112%;
+    top: 121%;
     left: -2%;
   }
 
   .bubble--patologia {
-    top: 112%;
+    top: 121%;
     left: 51%;
   }
 
   .bubble--protesis {
-    top: 148%;
+    top: 160%;
     left: 24%
   }
 
