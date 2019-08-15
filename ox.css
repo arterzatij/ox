@@ -428,6 +428,10 @@ header > .img--ox {
     font-size: 1.5rem;
   }
 
+  .media {
+    display: block;
+  }
+
   .img__page {
     margin-top: 145px;
   }
