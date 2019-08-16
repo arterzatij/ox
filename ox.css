@@ -361,12 +361,14 @@ header > .img--ox {
   background-image: url("imagenes/btn-prev--white.svg");
   position: relative;
   top: -420px;
+  left: 0;
 }
 
 #equipoControles .carousel-control-next-icon {
   background-image: url("imagenes/btn-next--white.svg");
   position: relative;
   top: -420px;
+  right: 0;
 }
 
 .team-ox {
@@ -591,5 +593,24 @@ header > .img--ox {
   .card--ox .card-text {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .container--team-ox {
+    height: 450px;
+    overflow-y: scroll;
+  }
+
+  .card__container--team {
+    height: 560px;
+  }
+
+  .team-ox {
+    height: 500px;
+    right: 20%;
+    top: 44%;
+  }
+
+  .team-member img {
+    width: 190px;
   }
 }
