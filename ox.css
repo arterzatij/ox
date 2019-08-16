@@ -424,10 +424,52 @@ header > .img--ox {
   list-style: url("imagenes/bullet.png");
 }
 
+#equipoControles img {
+  width: 250px;
+}
+
+#equipoControles img.quote-ox {
+    width: 100%;
+  }
+
 @media (max-width: 576px) {
+
+  .card-body--team .carousel-inner {
+    height: 300px;
+  }
+
+  #equipoControles img {
+    width: 150px;
+  }
+
+  #equipoControles .carousel-control-prev-icon {
+    top: -72px;
+  }
+
+  #equipoControles .carousel-control-next-icon {
+    top: -72px;
+  }
+
+  #equipoControles .carousel-item {
+    height: 290px;
+    overflow-y: scroll;
+  }
+
+  .text--equipo {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
   .h1, h1 {
     font-size: 1.5rem;
+  }
+
+  .h2, h2 {
+    font-size: 1.2rem;
+  }
+
+  .h6, h6 {
+    font-size: .8rem;
   }
 
   .media {
