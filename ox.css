@@ -664,3 +664,23 @@ header > .img--ox {
     width: 190px;
   }
 }
+
+.tel .tel--hover {
+  display: none;
+}
+
+.tel:hover .tel--icon {
+  display: none;
+}
+
+.tel:hover .tel--hover {
+  display: block;
+}
+
+a[data-toggle=collapse] img {
+  background: rgb(49, 133, 255);
+  padding: 5px;
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 50% !important;
+}
