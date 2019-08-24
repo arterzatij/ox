@@ -678,7 +678,7 @@ header > .img--ox {
 }
 
 a[data-toggle=collapse] img {
-  background: rgb(49, 133, 255);
+  background: rgba(206, 210, 228, 0.4);
   padding: 5px;
   width: 45px !important;
   height: 45px !important;
