@@ -677,8 +677,11 @@ header > .img--ox {
   display: block;
 }
 
-a[data-toggle=collapse] img {
+.card--ox:hover a[data-toggle=collapse] img {
   background: rgba(206, 210, 228, 0.4);
+}
+
+a[data-toggle=collapse] img {
   padding: 5px;
   width: 45px !important;
   height: 45px !important;
